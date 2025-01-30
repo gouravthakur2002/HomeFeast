@@ -1,0 +1,53 @@
+.contact-us-section {
+    padding: 50px 0;
+}
+
+.contact-us-section h2, .contact-us-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #f76c0e;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #f44336;
+}
+
+.business-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.map iframe {
+    border: 0;
+    border-radius: 5px;
+}

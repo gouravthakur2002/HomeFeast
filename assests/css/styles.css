@@ -1,0 +1,247 @@
+/* General Navbar Styling */
+.navbar {
+    background-color: #fff; /* Light background */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Logo and Title */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f76c0e; /* Dark color for text */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.navbar-brand img {
+    margin-right: 10px; /* Space between logo and title */
+    height: 80px;
+    width: 80px;
+}
+
+
+/* Navigation Links */
+.navbar-nav {
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link {
+    color: #2d2929; /* Dark gray text for links */
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color:  #f76c0e; /* Blue color on hover */
+}
+
+/* Button Styling */
+.d-flex .btn {
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 25px; /* Rounded button edges */
+}
+
+.d-flex .btn-outline-primary {
+    color: #f76c0e;
+    border: 2px solid  #f76c0e;
+    margin-right: 10px;
+}
+
+.d-flex .btn-outline-primary:hover {
+    background-color: #f76c0e;
+    color: #fff;
+}
+
+.d-flex .btn-primary {
+    background-color:  #f76c0e;
+    border: none;
+    color: white;
+}
+
+.d-flex .btn-primary:hover {
+    background-color:  #f76c0e;
+}
+
+/* Responsive Design: Navbar items */
+@media (max-width: 900px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*hero section*/
+.hero {
+    background: url('../images/bg.jpg') no-repeat center center/cover;
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(23, 21, 21);
+    padding: 20px;
+    position: relative;
+  }
+
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .order-btn {
+    background-color: #ff6600;  /* Orange for food */
+    color: white;
+  }
+  
+  .chef-btn {
+    background-color: #f76c0e; /* Darker Orange */
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+
+  /*Meal-section*/
+  .meal-section {
+    background-color: #f8f9fa; /* Light background */
+}
+
+.meal-card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.meal-card:hover {
+    transform: scale(1.05);
+}
+
+.meal-card img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.meal-btn {
+    background-color: #f76c0e; /* Orange theme */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.meal-btn:hover {
+    background-color: #d45a04; /* Darker orange */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #44403d; /* Dark background color */
+    color: #ffffff; /* White text */
+    padding: 40px 0;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+footer .list-unstyled li a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+    transition: color 0.3s ease;
+}
+
+footer .list-unstyled li a:hover {
+    color: #f76c0e; /* Orange color on hover */
+}
+
+footer .fab {
+    font-size: 1.5rem;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+footer .fab:hover {
+    color: #f76c0e; /* Change to orange on hover */
+}
+
+footer .form-control {
+    border-radius: 20px; /* Rounded edges for the input */
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+footer .btn-warning {
+    background-color: #f76c0e; /* Orange button */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+footer .btn-warning:hover {
+    background-color: #e65c00; /* Darker orange on hover */
+}
+
+footer .text-center p {
+    font-size: 0.875rem;
+    color: #aaaaaa; /* Light grey color for copyright text */
+}
+
+footer .row {
+    margin-bottom: 20px;
+}
